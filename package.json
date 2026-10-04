@@ -1,0 +1,20 @@
+{
+  "name": "testbench",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Web 测试平台：EvalScope / Locust / JMeter 统一编排、数据集与历史记录",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "start:public": "HOST=0.0.0.0 node server.js",
+    "doctor": "node scripts/doctor.mjs",
+    "test:parsers": "node scripts/parse-test.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "smoke:full": "node scripts/smoke.mjs --real-eval",
+    "install:tools": "bash install.sh"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

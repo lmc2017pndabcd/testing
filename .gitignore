@@ -1,0 +1,10 @@
+node_modules/
+.venv/
+venv/
+env/
+tools/
+data/runs/
+data/datasets/
+*.log
+.DS_Store
+.env
